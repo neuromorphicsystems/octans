@@ -162,10 +162,10 @@ if __name__ == "__main__":
     logging.getLogger().setLevel(logging.INFO)
     database = tycho2.Database()
     generate_pages(
-        cylinder_circumference_meters=0.3 * math.pi,
-        paper_width_meters=0.21,
-        paper_height_meters=0.297,
-        paper_margin_meters=0.01,
+        cylinder_circumference_meters=0.91,
+        paper_width_meters=0.2025,
+        paper_height_meters=0.285,
+        paper_margin_meters=0.025,
         pixels_per_meter=300.0 * 39.3701,
         output_directory=dirname / "star_map",
         collections=[
