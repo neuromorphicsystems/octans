@@ -1,4 +1,6 @@
-# octans
+# Octans
+
+A very simple physical simulator for on-orbit star trackers.
 
 ## Record data with the Prophesee Gen4
 
